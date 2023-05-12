@@ -1,0 +1,243 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing : border-box;
+}
+body{
+    background-color: #081b29;  
+}
+.container{
+    position: relative;
+}
+h1{
+    color: white;
+}
+p{
+    color: white;
+}
+.links{
+    width: 20%;
+    display: flex;
+}
+.header h1{
+    top: 2px;
+    position: absolute;
+    left: 178px;
+}
+ul {
+    padding-top: 11px;
+    margin-left: 1050px;
+    display: flex;
+    width: 457px;
+}
+li {
+    display: inline;
+    padding-left: 87px;
+    margin-left: 0%;
+}
+                           /* links */                        
+a{
+    color:  white;
+    text-decoration: none;
+}
+li a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background-color: #07c4f2;
+    margin: auto;
+    display: block;
+}
+li a:hover::after{
+    width: 100%;
+    transition: width 0.2s linear;
+     
+}
+                           /* media 1200*/
+@media  (min-width:1190px) and (max-width:1250px){
+    .header h1 {
+        left: 92px;
+    }
+    ul{
+        margin-left: 648px;
+    }
+}
+                           /* media 800*/
+@media  (min-width:751px) and (max-width:820px){
+    .header h1 {
+        left: 67px;
+    }
+    ul{
+        margin-left: 477px;
+        width: 263px;
+    }
+    li{
+        padding-left: 28px;
+    }
+}
+                           /* media 700*/
+@media  (min-width:651px) and (max-width:750px){
+    .header h1 {
+        left: 52px;
+    }
+    ul{
+        margin-left: 401px;
+        width: 263px;
+    }
+    li{
+        padding-left: 22px;
+    }
+}
+                           /* media 614*/
+@media  (min-width:551px) and (max-width:650px){
+    .header h1 {
+        left: 52px;
+        width: 188px;
+    }
+    ul{
+        margin-left: 322px;
+        width: 263px;
+    }
+    li{
+        padding-left: 22px;
+    }
+}
+                           /* media 514*/
+@media  (min-width:451px) and (max-width:550px){
+    .header h1 {
+        left: 39px;
+        width: 123px;
+        font-size: 26px;
+    }
+    ul{
+        margin-left: 214px;
+        width: 263px;
+    }
+    li{
+        padding-left: 21px;
+    }
+}
+                           /* media 414*/
+@media  (min-width:414px) and (max-width:450px){
+    .header h1 {
+        left: 27px;
+        width: 123px;
+        font-size: 26px;
+    }
+    ul{
+        margin-left: 167px;
+        width: 228px;
+    }
+    li{
+        padding-left: 15px;
+    }
+
+}
+                           /* media 400*/
+@media  (min-width:399px) and (max-width:413px){
+    .header h1 {
+        left: 27px;
+        width: 123px;
+        font-size: 26px;
+    }
+    ul{
+        margin-left: 156px;
+        width: 222px;
+    }
+    li{
+        padding-left: 15px;
+    }
+}
+                           /* media 390*/
+@media  (min-width:390px) and (max-width:398px){
+    .header h1 {
+        left: 22px;
+        width: 98px;
+        font-size: 20px;
+    }
+    ul{
+        margin-left: 135px;
+        width: 222px;
+    }
+    li{
+        padding-left: 10px;
+    }
+}
+                           /* media 375*/
+@media  (min-width:365px) and (max-width:388px){
+    .header h1 {
+        left: 22px;
+        width: 98px;
+        font-size: 20px;
+    }
+    ul{
+        margin-left: 137px;
+        width: 222px;
+    }
+    li{
+        padding-left: 10px;
+    }
+}
+                           /* media 360*/
+@media  (min-width:358px) and (max-width:364px){
+    .header h1 {
+        left: 22px;
+        width: 98px;
+        font-size: 20px;
+        margin-left: -11px;
+    }
+    ul{
+        margin-left: 137px;
+        width: 222px;
+    }
+    li{
+        padding-left: 10px;
+    }
+}
+                           /* media 355*/
+@media  (min-width:354px) and (max-width:357px){
+    .header h1 {
+        left: 22px;
+        width: 98px;
+        font-size: 20px;
+        margin-left: -11px;
+    }
+    ul{
+        margin-left: 137px;
+        width: 95px;
+    }
+    li{
+        padding-left: 10px;
+    }
+}
+                           /* media 330*/
+@media  (min-width:325px) and (max-width:350px){
+    .header h1 {
+        left: 13px;
+        width: 98px;
+        font-size: 18px;
+    }
+    ul{
+        margin-left: 114px;
+        width: 210px;
+    }
+    li{
+        padding-left: 10px;
+    }
+}
+                           /* media 314*/
+@media  (min-width:299px) and (max-width:324px){
+    .header h1 {
+        left: 13px;
+        width: 98px;
+        font-size: 16px;
+    }
+    ul{
+        margin-left: 94px;
+        width: 210px;
+    }
+    li{
+        padding-left: 10px;
+    }
+}
